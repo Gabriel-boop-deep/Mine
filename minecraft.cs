@@ -7,11 +7,11 @@
 
  class Program {
    static void Main (string[] args) {
-   Personagem person1= new Personagem("Bob","Masculino",1998,0);
-   Personagem person2 = new Personagem("Steve","Masculino",2018,0);
-   Personagem person3 = new Personagem("Charl","Feminino",2018,0);
-   Personagem person4 = new Personagem("D","Feminino",2017,0);
-   Personagem person5 = new Personagem("Elloy","Masculino",1998,0);
+   Personagem person1= new Personagem("Bob","Masculino",1998,2);
+   Personagem person2 = new Personagem("Steve","Masculino",2018,3);
+   Personagem person3 = new Personagem("Charl","Feminino",2018,3);
+   Personagem person4 = new Personagem("D","Feminino",2017,3);
+   Personagem person5 = new Personagem("Elloy","Masculino",1998,2);
     
     
     Console.WriteLine(person1);
