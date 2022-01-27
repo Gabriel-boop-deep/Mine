@@ -14,7 +14,7 @@ namespace projeto_api
     
     
   }
-  public Livro(string Nome,string Genero,int poder,int nivel)
+  public Livro(string Nome,string Genero,int Poder,int Nivel)
   {
     this.Nome=Nome;
     this.Genero=Genero;
