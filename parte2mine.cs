@@ -9,8 +9,8 @@ namespace projeto_api
   {
     public string Nome { get; set; }
     public string Genero { get; set; }
-    public int poder { get; set; }
-    public int nivel { get; set; }
+    public int Poder { get; set; }
+    public int Nivel { get; set; }
     
     
   }
@@ -18,8 +18,8 @@ namespace projeto_api
   {
     this.Nome=Nome;
     this.Genero=Genero;
-    this.poder=poder;
-    this.nivel=nivel;
+    this.poder=Poder;
+    this.nivel=Nivel;
   }
   public override string ToString()
   {
